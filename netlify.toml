@@ -28,3 +28,8 @@ HUGO_VERSION = "0.51"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*" 
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
