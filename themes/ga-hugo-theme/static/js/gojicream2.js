@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=$(".sticker"),s=o.position();$(window).scroll(function(){$(window).scrollTop()>=s.top?o.addClass("stick"):o.removeClass("stick")})});
