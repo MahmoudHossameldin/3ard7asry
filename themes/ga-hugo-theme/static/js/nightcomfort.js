@@ -1,0 +1,1 @@
+$(function(){'use strict';$(window).scroll(function(){if($(window).scrollTop()>="1122"){$('.sidebar .product-btn').addClass('fixed')}else{$('.sidebar .product-btn').removeClass('fixed')}})})
